@@ -1,0 +1,63 @@
+body {
+  font-family: sans-serif;
+  background: #FFBF00;
+  color: black;
+  text-align: center;
+}
+
+#description{
+  font-size: 30px;
+  position: relative;
+ 
+} 
+
+.input{
+  width: 280px;
+  height: 39px;
+  border-radius: 2px;
+  border: 5px;
+  border-color: gray; 
+}
+
+#survey-form{
+  padding: 50px 50px 50px;
+  margin: 0px 250px 0px 250px;
+  text-align: left;
+  font-size: 20px;
+  background:#FF7E00;
+  position:relative;
+  
+}
+#submit{
+  width:700px;
+  height:40px;
+  color: black;
+  background-color: #A4C639; 
+  font-size: 18px;
+  border: 5px;
+ border-radius:2px;
+}
+
+#dropdown{
+  font-size: 17px;
+  
+}
+textarea{
+  height: 100px;
+  width: 700px;
+  border:5px;
+  border-radius: 2px;
+  font-size:17px;;
+}
+
+button:hover{
+animation-name:change;
+animation-duration:1ms;
+animation-fill-mode:forwards;
+}
+@keyframes change{
+  100%
+  {
+    background-color:yellow;
+  }
+}
